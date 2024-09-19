@@ -1,0 +1,58 @@
+/* contentHeader.css */
+.content--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header--title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .header--activity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .search-box input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .icon {
+    margin-left: -30px;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .logout-btn {
+    display: flex;
+    align-items: center;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e03e3e;
+  }
+  
+  .logout-icon {
+    margin-right: 5px;
+  }
+  
